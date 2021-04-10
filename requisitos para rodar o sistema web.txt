@@ -1,0 +1,14 @@
+CadUs - Cadastro de Usuários
+
+Especificações:
+
+O projeto web foi desenvolvido usando as tecnologias Python, Django, Bootstrap, Javascript.
+Banco de Dados usado: SQLite
+
+Como rodar o projeto:
+
+Primeiro tem que baixar os softwares que foram necessários para o desenvolvimento do projeto, alguma IDE para desenvolver em Python, no caso foi usada PyCharm. Baixar o Python, propriamente dito, também um software de gerenciamento de banco de dados, no caso do projeto foi usado SQLite.
+Feito isso, o ambiente de desenvolvimento tem que ser preparado fazendo a instalação do framework Django pelo terminal.
+Também tem que ser feita a criação do banco de dados com as especificações da pasta Migrations, visto que a conexão com o banco já está feita.
+Por último, abra a pasta do projeto com a IDE, depois abra o caminho da pasta pelo terminal (lembrando de acessar a pasta da máquina virtual que foi criada para que as configurações se apliquem apenas ao projeto em questão) e use o comando 'python manage.py runserver' para iniciar o servidor.
+Agora é só abrir algum navegador e acessar a porta padrão 8000 pelo localhost (localhost:8000) que o projeto estará disponível para visualização e alteração em tempo real.
